@@ -14,6 +14,6 @@ $CONFIG config --local status.showUntrackedFiles no
 
 $CONFIG checkout arch
 $CONFIG status
-. $HOME/.bashrc
-cd $HOME
+. ~/.bashrc
+
 
