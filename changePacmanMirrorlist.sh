@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 ##########################################################
 #							 #
 #  sucht die schnellsten mirrors und baut mirrorlist neu #
