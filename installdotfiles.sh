@@ -14,7 +14,7 @@ $CONFIG config --local status.showUntrackedFiles no
 
 $CONFIG checkout arch
 $CONFIG status
-sleep 1
-. ~/.bashrc
 
+
+. $HOME/.bash_aliases
 
