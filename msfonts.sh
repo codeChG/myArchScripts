@@ -4,6 +4,11 @@ set -e
 
 USERFONTDIR="$HOME/.local/share/fonts/TTF"
 
+echo "###################################"
+echo "#      INSTALLING MS FONTS        #"
+echo "###################################"
+
+
 
 if ! [[ -x $(which git) ]]; then
   pacman -Sy git
@@ -25,7 +30,7 @@ mkfontscale
 mkfontdir
 # cleaning!
 rm -rf /tmp/msfonts
-echo "----------------------------------"
-echo "done."
-echo "----------------------------------"
+echo "###################################"
+echo "#         MS FONTS INSTALLED.     #"
+echo "###################################"
 
