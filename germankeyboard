@@ -1,4 +1,4 @@
-sudo pacman -S --needed --noconfirm libxkbcommon
+sudo pacman -S --needed --noconfirm libxkbcommon libxkbcommon-x11
 
 sudo localectl --no-convert set-keymap de-latin1-nodeadkeys
 sudo localectl --no-convert set-x11-keymap de pc105 nodeadkeys
