@@ -14,4 +14,7 @@ sudo pacman -Syu --noconfirm
 ./030-install-xorg-virtualbox.sh
 ./msfonts.sh
 ./germankeyboard
-echo done!
+./040-install-i3-gaps.sha
+echo "################################"
+echo "done - reboot this maschine now!"
+echo "################################"

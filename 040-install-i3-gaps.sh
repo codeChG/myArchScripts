@@ -15,4 +15,4 @@ sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter
 
 sudo systemctl enable lightdm.service
 
-echo " i3-gaps setup" done.
+echo "i3-gaps setup done.
