@@ -7,7 +7,7 @@ set -e
 
 echo " i3-gaps setup"
 
-sudo pacman -S --noconfirm --needed i3-gaps i3status rofi termite
+sudo pacman -S --noconfirm --needed i3-gaps i3status i3lock polkit rofi termite
 
 echo "lightdm setup"
 
