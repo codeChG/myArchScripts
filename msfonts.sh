@@ -5,7 +5,7 @@ set -e
 USERFONTDIR="$HOME/.local/share/fonts/TTF"
 
 echo "###################################"
-echo "#      INSTALLING MS FONTS        #"
+echo "#      INSTALLING FONTS           #"
 echo "###################################"
 
 
@@ -30,7 +30,10 @@ mkfontscale
 mkfontdir
 # cleaning!
 rm -rf /tmp/msfonts
+
+sudo pacman -S --noconfirm --needed ttf-font-awesome
+
 echo "###################################"
-echo "#         MS FONTS INSTALLED.     #"
+echo "#         FONTS INSTALLED.        #"
 echo "###################################"
 
