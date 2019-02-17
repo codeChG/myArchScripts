@@ -10,6 +10,7 @@ set -e
 echo "042 install core programs <<cg>>"
 
 sudo pacman -S --needed firefox firefox-i18n-de
+sudo pacman -S --needed chromium
 sudo pacman -S --noconfirm --needed code vlc
 
 echo "042 install core programs <<cg>> done."
