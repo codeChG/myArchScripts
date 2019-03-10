@@ -9,7 +9,7 @@ set -e
 
 echo "029 install core programs <<cg>>"
 
-sudo pacman -S --noconfirm --needed feh figlet
+sudo pacman -S --noconfirm --needed feh figlet fish
 
 [ ! -f /usr/bin/ufetch ] && packer -S --noconfirm ufetch-git
 
