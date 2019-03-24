@@ -11,6 +11,6 @@ echo "042 install core programs <<cg>>"
 
 sudo pacman -S --needed firefox firefox-i18n-de
 sudo pacman -S --needed chromium
-sudo pacman -S --noconfirm --needed code vlc
+sudo pacman -S --noconfirm --needed code vlc zathura
 
 echo "042 install core programs <<cg>> done."
