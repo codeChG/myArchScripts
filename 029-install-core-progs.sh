@@ -10,7 +10,7 @@ set -e
 echo "029 install core programs <<cg>>"
 
 sudo pacman -S --noconfirm --needed zip unzip 
-sudo pacman -S --noconfirm --needed feh figlet fish hexedit nodejs
+sudo pacman -S --noconfirm --needed feh figlet fish hexedit nodejs python-pip
 
 sudo pacman -S --noconfirm --needed gnu-netcat
 
