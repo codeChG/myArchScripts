@@ -26,8 +26,8 @@ echo "updating all caches..."
 echo "----------------------------------"
 cd $USERFONTDIR
 fc-cache -vf
-mkfontscale
-mkfontdir
+#mkfontscale
+#mkfontdir
 # cleaning!
 rm -rf /tmp/msfonts
 
